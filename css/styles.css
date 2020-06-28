@@ -3,15 +3,16 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-color: #ff5722;
 }
 
 #particles-js {
   height: 100%;
-  background: #f00 !important;
+  background-color: #ff5722 !important;
 }
 
 .navbar {
-  background-color: #f00;
+  background-color: #ff5733;
 }
 
 .navbar-brand {
