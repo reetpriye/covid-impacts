@@ -7,8 +7,11 @@ body {
   background: #222831;
   color: #f5f5f5;
   font-size: 1.2rem;
-  line-height: 1.6rem;
   /* background-color: #ff5722; */
+}
+
+article {
+  line-height: 1.6rem;
 }
 
 .cards-container {
