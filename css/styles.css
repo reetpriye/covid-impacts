@@ -3,19 +3,28 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: #303030;
+  /* background: #303030; */
+  background: #222831;
   color: #f5f5f5;
   font-size: 1.3rem;
   /* background-color: #ff5722; */
 }
+
+.cards-container {
+  position: relative;
+  z-index: 1;
+}
+
 .jumbotron {
   font-family: "Righteous", cursive;
 }
 
-#particles-js {
-  height: 100%;
-  background-color: #ff5722 !important;
-  width: 100%;
+.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #ff5733;
 }
 
 .navbar {
