@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Teko&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- Google Fonts End -->
 
     <!-- CSS Start -->
@@ -68,15 +72,16 @@
               Problems due to Corona
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#"
+                >Effects on Social Life<span class="sr-only">(current)</span></a
+              >
               <a class="dropdown-item" href="./education.html"
                 >Effects on Education</a
               >
               <a class="dropdown-item" href="./economy.html"
                 >Effects on Economy</a
               >
-              <a class="dropdown-item" href="#"
-                >Effects on Social Life<span class="sr-only">(current)</span></a
-              >
+              
             </div>
           </li>
         </ul>
@@ -85,13 +90,41 @@
 
     <!-- Navigation Panel End -->
 
-    <!-- Add Particle.js -->
-
-    <div id="particles-js">
-      <div class="container py-4">
-        <div class="row justify-content-lg-between"></div>
+    <!-- Article Start -->
+    <div class="container py-4">
+      <div class="row justify-content-lg-between">
+        <div class="col-12">
+          <section>
+            <div class="jumbotron jumbotron-fluid bg-info shadow">
+              <div class="container">
+                <h1 class="display-4 text-dark">
+                  Covid-19: the economic impact
+                </h1>
+                <p class="lead text-white">
+                  Here is a selection of charts to help you understand the
+                  economic impact of the virus so far. Global shares take a hit.
+                  Big shifts in stock markets.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
+    <!-- Article Ends -->
+
+    <!-- Footer Start -->
+    <footer class="page-footer text-white">
+      <div class="container-fluid py-1">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            © 2020 Copyright :
+            <a href="https://harshproject.netlify.app/">HarshProject</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
 
     <!-- Jquery First then Popper then Bootstrap and at last Particlejs -->
     <script src="../js/jquery.min.js"></script>
@@ -99,5 +132,6 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/particles.min.js"></script>
     <script src="../js/app.js"></script>
+    <script src="../js/shadow.js"></script>
   </body>
 </html>
