@@ -1,3 +1,7 @@
+/* For Footer */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+
 body {
   font-family: "Open Sans Condensed", sans-serif;
   margin: 0;
@@ -73,17 +77,19 @@ article {
     25px 25px rgba(0, 98, 90, 0.05) !important;
 }
 
-.page-footer {
-  background: #054241;
-  width: 100%;
-  font-size: 1rem;
-  font-family: "Teko", sans-serif;
-}
-
 .aboutme-page-footer {
   position: absolute !important;
   bottom: 0;
   right: 0;
+}
+
+.footer {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
+  margin: 0;
+  background: #054241;
 }
 
 @media (min-width: 770px) {
@@ -91,3 +97,22 @@ article {
     width: 40%;
   }
 }
+
+/* Icon Colors Modification */
+.fa-heart {
+  color: red;
+}
+
+.fa-js {
+  color: dodgerblue;
+}
+
+.fa-bootstrap {
+  color: #9b6fdd;
+}
+
+/* .footer a {
+  text-decoration:none;
+  color: inherit;
+} */
+
